@@ -1,0 +1,484 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="assets/images/tanjiro.png" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <!-- Add icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="styles.css">
+  <title> Balanced Body & Mind </title>
+</head>
+<style>
+  .container-fluid {
+    max-width: 80%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    overflow-x: hidden;
+  }
+
+  .card {
+    box-shadow: 0px 0px 10px rgba(183, 87, 87, 0.3);
+
+  }
+
+  .card-title {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .card-text {
+    font-size: 18px;
+    text-align: justify;
+  }
+
+  .carousel-inner .carousel-item img {
+    height: 550px !important;
+    width: 100%;
+    object-fit: fill;
+    object-position: center;
+  }
+
+  img {
+    height: 200px;
+    object-fit: cover;
+  }
+
+  #titulo{
+  text-align: center !important;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.Intro{
+  font-size:20px;
+}
+
+  iframe {
+    width: 100%;
+    height: 30vh;
+    border-radius: 25px;
+    margin: 5px;
+    padding: 5px;
+  }
+
+  .social {
+    color: #fff;
+    /* Color del texto */
+  }
+
+  .social i {
+    color: #ff0000;
+    /* Color de fondo de los iconos */
+  }
+
+  #footer a {
+    color: white;
+  }
+
+  @media (min-width: 320px) and (max-width: 768px) {
+    .container-fluid {
+      max-width: 100%;
+      overflow-x: hidden;
+      margin: 2px;
+    }
+
+    .carousel-inner .carousel-item img {
+      height: 200px !important;
+      width: 100%;
+      object-fit: fill;
+      object-position: center;
+    }
+
+    h1 {
+      font-size: 25px;
+    }
+    .Intro{
+  font-size:18px;
+}
+
+    .card {
+      margin: 2px;
+      width: 100%;
+
+    }
+
+    .card-body {
+      width: 100%;
+    }
+
+    .card-title {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .card-text {
+    font-size: 18px;
+    text-align: justify;
+  }
+
+
+    iframe {
+      width: 100%;
+      height: 30vh;
+      border-radius: 15px;
+    }
+
+    img {
+      height: 200px;
+      object-fit: cover;
+    }
+
+    #footer a {
+      color: white;
+    }
+  }
+</style>
+
+<body>
+  <!--Main Container-->
+  <div class="container-fluid">
+    <!--Header-->
+    <header>
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Balanced Body & Mind</a>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="principal.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Programa de Entrenamiento y Alimentacion.html">Entrenamiento y Receta</a>
+              </li>
+
+            </ul>
+
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--Fin header-->
+    <!--Main- CARROUSEL-->
+    <main id="main">
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" data-pause="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block rounded" src="img/receta1.webp" alt="FIT 1">
+          </div>
+          <div class="carousel-item ">
+            <img class="d-block rounded" src="img/entrenamiento2.webp" alt="FIT 2">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block rounded" src="img/Receta2.webp" alt="FIT 3">
+          </div>
+          <div class="carousel-item ">
+            <img class="d-block rounded" src="img/Entrenamiento4.webp" alt="FIT 4">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block rounded" src="img/Receta5.webp" alt="FIT 5">
+          </div>
+          <div class="carousel-item ">
+            <img class="d-block rounded" src="img/Entrenamiento6.webp" alt="FIT 6">
+          </div>
+
+
+        </div>
+      </div>
+    </main>
+    <br>
+    <!--Fin Main-->
+    <div class="mt-2 m-1 text-dark rounded text-center p-1">
+      <h1>Hablemos un poco:</h1>
+      <p class="Intro"> Bienvenidos a nuestra página web dedicada a la alimentación, nutrición y actividades físicas. 
+        Sabemos que llevar una vida saludable no es fácil, pero estamos aquí para ayudarte a lograrlo. En nuestra página 
+        encontrarás información y consejos prácticos sobre cómo llevar una dieta equilibrada y nutritiva, cómo diseñar una 
+        rutina de ejercicio efectiva, cómo mejorar el rendimiento deportivo y cómo cuidar tu salud y bienestar en general.
+      </p>
+
+      <p class="Intro"> La alimentación es fundamental para nuestro organismo, pero no siempre es fácil saber qué alimentos 
+        son los más adecuados para cada uno. En nuestra página, encontrarás consejos y recomendaciones sobre cómo llevar una 
+        alimentación saludable, cómo elegir los alimentos más nutritivos y cómo evitar los alimentos poco saludables. </p>
+      <p>
+        La nutrición deportiva es otro de los temas que abordamos en nuestra página. Si eres deportista, sabes lo importante 
+        que es la nutrición para mejorar el rendimiento y evitar lesiones. En nuestra página, encontrarás información y consejos 
+        sobre cómo planificar la nutrición para cada tipo de deporte y cómo optimizar la hidratación.
+      </p>
+      <p class="Intro">
+        Además de la alimentación, la actividad física es fundamental para mantener un cuerpo sano y en forma. En nuestra página, 
+        te brindamos consejos sobre cómo diseñar una rutina de ejercicios efectiva, cómo evitar lesiones y cómo adaptar la rutina 
+        de ejercicios a tus necesidades individuales. <br>
+      </p>
+      <p class="Intro"> 
+        <strong>
+          En nuestra página web encontrarás información y consejos prácticos sobre cómo llevar una vida saludable, tanto en términos 
+          de alimentación como de actividad física. ¡Esperamos que te sea de utilidad!
+        </strong>
+      </p>
+
+    </div>
+
+    <!--Galeria Grupo Card #1- 1Ero-->
+    <h3 class="mb-3 pb-3 text-center">ARTICULOS Y MAS </h3>
+    <div class="card-group">
+      <div class="card m-1 p-2">
+        <img class="card-img-top" src="https://s1.ppllstatics.com/elcorreo/www/multimedia/202211/16/media/sentadilla-624x385-1248x770.gif"
+          alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">sentadillas</h5>
+          <p class="card-text">Los beneficios de las sentadillas incluyen fortalecimiento muscular de las piernas, glúteos y zona lumbar, 
+            mejora de la postura, aumento de la densidad ósea, mejora del equilibrio y coordinación, quema de calorías y mejora de la movilidad..</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+
+      <div class="card m-1 p-2">
+        <img class="card-img-top" src="https://nestlefamilyclub.es/sites/default/files/styles/5_2_1280px_width_/public/2020-01/header_0.jpg?h=1c9368ae&itok=gwKHksTg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">sentadillas profundas</h5>
+          <p class="card-text">Qué es la alimentación y su importancia: toda la información que necesitas. </p>
+            <p class="Intro">
+              https://nestlefamilyclub.es/articulo/que-es-la-alimentacion-y-su-importancia-toda-la-informacion-que-necesitas.
+            </p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+
+      <div class="card m-1 p-2">
+        <img class="card-img-top" src="https://www.elperiodico.com/es/especiales/multimedia/Sentadilla.gif"
+          alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Sentadillas Profundas</h5>
+          <p class="card-text">Las sentadillas profundas implican un mayor rango de movimiento y activación muscular en las piernas, glúteos y zona lumbar, 
+            mejoran la flexibilidad, la estabilidad en las caderas y el equilibrio. Sin embargo, es importante realizarlas de manera correcta y progresiva 
+            para evitar lesiones en las rodillas y la cadera.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+   <!--Galeria Grupo Card #2 -->
+      <div class="card-group">
+        <div class="card m-1 p-2">
+          <img class="card-img-top" src="https://cdn.hsnstore.com/blog/wp-content/uploads/2021/03/slam-ball.gif"
+            alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Revote </h5>
+            <p class="card-text">Este tipo de entrenamiento ya tiene incluso un nombre y dos buenas representantes.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card m-1 p-2">
+          <img class="card-img-top"
+            src="https://www.dir.cat/blog/wp-content/uploads/2017/12/abdominales-parejas.gif"
+            alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">ejercicios que puedes hacer con tu compañero de gimnasio</h5>
+            <p class="card-text">Dicen que la unión hace la fuerza, pero en este caso sería más oportuno decir que
+               «la unión os hará más fuertes». Estamos hablando de una rutina de ejercicios en la que es imprescindible 
+               realizarla acompañado por otra persona y con la que puedes entrenar cualquier parte del cuerpo..</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card m-1 p-2">
+          <img class="card-img-top" src="https://www.somosbellas.com/wp-content/uploads/2021/10/superman-ejercicio.gif"
+            alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Alternativas a la sentadilla para tonificar tus glúteos</h5>
+            <p class="card-text"> los músculos se acostumbran a trabajar siempre bajo los mismos estímulos, por eso conviene 
+              variar nuestras rutinas y conocer también otros ejercicios que actúen sobre la musculatura de la zona..</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+            </div>
+          </div>
+            
+            <br><br>
+            <!--Fin Galeria-->
+  
+              <!--Galeria de Videos-->
+
+
+              <h3 id="titulo" class="text-center">Videos de entrenamientos y Recetas</h3>
+              <hr>
+
+              <div class="card-group">
+                <div class="card">
+                  <iframe src="https://www.youtube.com/embed/3__WfCtCxgc" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                  <div class="card-body">
+                    <h5 class="card-title">Cómo entrenar en el Gym - Ejercicios para tonificar el cuerpo</h5>
+                    <p class="card-text"><small class="text-muted">Last updated 30 mins ago</small></p>
+                  </div>
+                </div>
+                <div class="card">
+                  <iframe src="https://www.youtube.com/embed/UQ5PnMSgtPc" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+
+                  <div class="card-body">
+                    <h5 class="card-title">🥕 CENAS LIGERAS, SALUDABLES Y RICAS EN PROTEÍNA</h5>
+                    <p class="card-text"><small class="text-muted">Last updated 13 mins ago</small></p>
+                  </div>
+                </div>
+                <div class="card">
+                  <iframe src="https://www.youtube.com/embed/3ZSm0SoT6vI" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                  <div class="card-body">
+                    <h5 class="card-title">EJERCICIOS EN CASA - Rutina súper intensa
+                    </h5>
+                    <p class="card-text"><small class="text-muted">Last updated 23 mins ago</small></p>
+                  </div>
+                </div>
+
+
+                <div class="card-group">
+                  <div class="card">
+                    <iframe src="https://www.youtube.com/embed/YQQfhILVR7c" title="YouTube video player" frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen></iframe>
+                    <div class="card-body">
+                      <h5 class="card-title">Estiramientos de todo el cuerpo
+                      </h5>
+                      <p class="card-text"><small class="text-muted">Last updated 30 mins ago</small></p>
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <iframe src="https://www.youtube.com/embed/gGuxB9yjPmg" title="YouTube video player" frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen></iframe>
+                    <div class="card-body">
+                      <h5 class="card-title">VEGETALES SALTEADOS! prepáralos para toda la semana y come sano 🥦🥕</h5>
+                      <p class="card-text"><small class="text-muted">Last updated 13 mins ago</small></p>
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <iframe src="https://www.youtube.com/embed/Gx_b6FKNmqU" title="YouTube video player" frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen></iframe>
+                    <div class="card-body">
+                      <h5 class="card-title">Deja de Cometer Estos Errores en los Ejercicios</h5>
+                      <p class="card-text"><small class="text-muted">Last updated 23 mins ago</small></p>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+            <hr />
+          </div>
+
+
+          <h3 id="titulo" class="text-center">🎶Musica para entrenar 🎶</h3>
+          <hr>
+          <!-- Boton Ver Serie-->
+
+          <div class="w-100 ">
+
+            <!-- Boton Ver Serie-->
+            <div class="text-center center-block">
+
+              <a href="https://youtu.be/HIb4hRxiEq4" target="_blank"
+                class="btn btn-danger btn-lg btn-block" tabindex="-1" role="button" aria-disabled="true">🎶Musica para entrenamiento</a>
+
+            </div>
+            <br>
+            <div class="text-center center-block">
+
+              <a href="https://youtu.be/KxqXCz7QYi4"
+                target="_blank" class="btn btn-danger btn-lg btn-block" tabindex="-1" role="button"
+                aria-disabled="true">🎶Musica para entrenamiento
+              </a>
+
+            </div>
+            
+            <!--Fin Boton Ver Serie-->
+
+
+            <!--Redes Sociales-->
+            <br>
+            <h3 class="text-center">Redes Sociales del facilitador</h3>
+            <hr />
+            <div class="text-center center-block">
+              <div class="social">
+                <a href="https://www.linkedin.com/in/juancitope%C3%B1a/" target="_blank"><i
+                    class="fa fa-linkedin-square fa-3x social"></i></a>
+                <a href="https://www.youtube.com/@JuancitoPenaV" target="_blank"><i
+                    class="fa fa-youtube-square fa-3x social"></i></a>
+                <a href="https://www.facebook.com/juancito.p.v" target="_blank"><i
+                    class="fa fa-facebook-square fa-3x social"></i></a>
+                <a href="https://twitter.com/JuancitoPenaV" target="_blank"><i
+                    class="fa fa-twitter-square fa-3x social"></i></a>
+                <a href="https://github.com/JUANCITOPENA" target="_blank"><i
+                    class="fa fa-github-square fa-3x social"></i></a>
+              </div>
+
+            </div>
+            <hr />
+            <h4 class="text-center">Ing. Marysol Brito <small>&copy; 2023. Todos los derechos reservados.</small></h4>
+            <!--Fin Redes Sociales-->
+
+            <!--Footer-->
+            <footer id="footer" class="pb-4 pt-4 bg-danger">
+              <div class="container">
+                <div class="row text-center">
+                  <div class=" col-12 col-lg">
+                    <a href="index.html">Home</a>
+                  </div>
+                  <div class="col-12 col-lg">
+                    <a href="Programa de Entrenamiento y Alimentacion.html">Entrenamiento y Receta</a>
+                  </div>
+
+                  <div class="col-12 col-lg">
+                    <a href="#">Contactos</a>
+                  </div>
+
+                </div>
+              </div>
+            </footer>
+            <!--Fin footer-->
+
+          </div>
+
+          <!--Main Container-->
+
+
+        </div>
+
+        <!-- Optional JavaScript -->
+        <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+          integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+          crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+          integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+          crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+          integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+          crossorigin="anonymous"></script>
+        <script src="index.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js "
+          integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc "
+          crossorigin="anonymous "></script>
+
+
+</body>
+
+</html>
