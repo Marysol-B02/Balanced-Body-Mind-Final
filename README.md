@@ -3,11 +3,11 @@ Balanced Body &amp; Mind
 
 ### Creacion de un Sitio Web con HTML5, CSS3, JAVASCRIPT, BOOTSTRAP, Git, Github etc.
 
-![](imag/Imagen1.png)
+![](img/Imagen1.png)
 
-![](imag/Imagen2.png)
+![](img/Imagen2.png)
 
-![](imag/Imagen3.png)
+![](img/Imagen3.png)
 
 
 
